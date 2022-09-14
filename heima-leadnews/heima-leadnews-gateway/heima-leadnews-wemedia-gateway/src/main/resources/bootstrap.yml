@@ -1,0 +1,13 @@
+server:
+  port: 51602
+spring:
+  application:
+    name: leadnews-wemedia-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.130:8848
+#        ephemeral: false
+      config:
+        server-addr: 192.168.200.130:8848
+        file-extension: yml
