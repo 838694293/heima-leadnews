@@ -193,16 +193,17 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
-            </dependency><dependency>
-            <groupId>com.fasterxml.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-cbor</artifactId>
-            <version>${fastjson.dataformat.version}</version>
-        </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.dataformat</groupId>
-                <artifactId>jackson-dataformat-xml</artifactId>
-                <version>${fastjson.dataformat.version}</version>
             </dependency>
+<!--            <dependency>-->
+<!--            <groupId>com.fasterxml.jackson.dataformat</groupId>-->
+<!--            <artifactId>jackson-dataformat-cbor</artifactId>-->
+<!--            <version>${fastjson.dataformat.version}</version>-->
+<!--        </dependency>-->
+<!--            <dependency>-->
+<!--                <groupId>com.fasterxml.jackson.dataformat</groupId>-->
+<!--                <artifactId>jackson-dataformat-xml</artifactId>-->
+<!--                <version>${fastjson.dataformat.version}</version>-->
+<!--            </dependency>-->
             <!-- spring colud -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
