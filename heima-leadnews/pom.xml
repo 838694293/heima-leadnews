@@ -17,11 +17,11 @@
         <module>heima-leadnews-gateway</module>
         <module>heima-leadnews-test</module>
         <module>heima-leadnews-basic</module>
-        <module>heima-leadnews-test/freemarker-demo</module>
-        <module>heima-leadnews-test/tesssj-demo</module>
-        <module>heima-leadnews-test/kafka-demo</module>
-        <module>heima-leadnews-test/es-init</module>
-        <module>heima-leadnews-test/xxljob-demo</module>
+<!--        <module>heima-leadnews-test/freemarker-demo</module>-->
+<!--        <module>heima-leadnews-test/tesssj-demo</module>-->
+<!--        <module>heima-leadnews-test/kafka-demo</module>-->
+<!--        <module>heima-leadnews-test/es-init</module>-->
+<!--        <module>heima-leadnews-test/xxljob-demo</module>-->
     </modules>
 
     <!-- 继承Spring boot工程 -->
