@@ -21,8 +21,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.io.StringWriter;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @SpringBootTest(classes = ArticleApplication.class)
 @RunWith(SpringRunner.class)
@@ -65,6 +68,16 @@ public class ArticleFreemarkerTest {
           apArticleMapper.updateById(apArticle);
       }
     }
+    @Test
+    public void listTest(){
+        List<Long> stringList = Arrays.asList(110L, 112L);
+        List<Long> collect = stringList.stream().filter(s -> s != 112L).collect(Collectors.toList());
+        for (Long s : collect) {
+            System.out.println(s);
+        }
+
+    }
+
 
 
 }
