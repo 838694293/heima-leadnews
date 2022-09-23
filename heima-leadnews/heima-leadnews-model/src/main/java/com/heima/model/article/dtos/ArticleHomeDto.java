@@ -18,4 +18,5 @@ public class ArticleHomeDto {
 
     String name;
     String master;
+    String hotFix;
 }
