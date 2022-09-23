@@ -17,6 +17,6 @@ public class ArticleHomeDto {
     String tag;
 
     String name;
-    String master;
+    String master2;
     String hotFix;
 }
