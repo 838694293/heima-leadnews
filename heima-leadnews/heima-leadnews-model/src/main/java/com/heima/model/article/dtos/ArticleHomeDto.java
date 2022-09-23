@@ -17,4 +17,5 @@ public class ArticleHomeDto {
     String tag;
 
     String name;
+    String master;
 }
